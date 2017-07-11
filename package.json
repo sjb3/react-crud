@@ -20,5 +20,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:8080",
+  "description": "Tut is inspired by Rem Zolotykh of Youtube",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjb3/react-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjb3/react-crud/issues"
+  },
+  "homepage": "https://github.com/sjb3/react-crud#readme"
 }
