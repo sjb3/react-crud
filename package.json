@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "classnames": "^2.2.5",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
+    "react-router": "^4.0.0-alpha.5",
+    "react-router-dom": "^4.0.0-beta.5",
     "redux": "^3.7.1",
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0"
@@ -18,5 +22,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:8080",
+  "description": "Tut is inspired by Rem Zolotykh of Youtube",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjb3/react-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjb3/react-crud/issues"
+  },
+  "homepage": "https://github.com/sjb3/react-crud#readme"
 }
